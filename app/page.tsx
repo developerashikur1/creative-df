@@ -6,12 +6,12 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { Download, Eye, Pause, Play, Trash2 } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import heroBg from "../public/images/img/hero-bg.png";
 import logo_asana from "../public/images/logos/Asana-Logo.png";
 import logo_clickup from "../public/images/logos/clickup-logo.png";
 import logo_monday from "../public/images/logos/monday-logo-x2.png";
 import logo_notion from "../public/images/logos/notion-logo.png";
 import logo_trello from "../public/images/logos/trello-logo.png";
-import heroBg from "../public/images/img/hero-bg.png";
 
 export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState("Home");
@@ -294,7 +294,7 @@ export default function Home() {
       title: "Private by Default",
       description:
         "Your data stays yours. Always. Transparent control over all data with a visual Consent Ledger.",
-      image: "/images/img/Respects_WhatΓÇÖs_Yours_V1.jpg",
+      image: "/images/img/Respects-WhatΓÇÖs-Yours-V1.jpg",
       linkText: "See Privacy Controls →",
       linkHref: "#privacy",
     },
@@ -302,7 +302,7 @@ export default function Home() {
       title: "Discreetly Proactive",
       description:
         "Acts when needed, not when asked. Anticipates without interrupting with context-aware actions and quiet hours.",
-      image: "/images/img/Data_Integrity_V1.jpg",
+      image: "/images/img/Data-Integrity-V1.jpg",
       linkText: "See Proactive in Action →",
       linkHref: "#proactive",
     },
@@ -310,7 +310,7 @@ export default function Home() {
       title: "Seamlessly Connected",
       description:
         "Works with your tools, devices, and routines. Integrates with Outlook, Spotify, WYZE, and more.",
-      image: "/images/img/Together_Effortlessly_V2.jpg",
+      image: "/images/img/Together-Effortlessly-V2.jpg",
       linkText: "See All Integrations →",
       linkHref: "#integrations",
     },
@@ -318,7 +318,7 @@ export default function Home() {
       title: "Understands Context",
       description:
         "Sees your world — tone, intent, flow. Reads between the lines and infers what you need.",
-      image: "/images/img/Understands_Without_Asking_V1.jpg",
+      image: "/images/img/Understands-Without-Asking-V1.jpg",
       linkText: "See Context in Action →",
       linkHref: "#prompts",
     },
@@ -326,7 +326,7 @@ export default function Home() {
       title: "Elegant Control",
       description:
         "Granular control. Always your call. Pause, limit, or erase memory anytime with simple commands.",
-      image: "/images/img/Blends_Into_Everything.jpg",
+      image: "/images/img/Blends-Into-Everything.jpg",
       linkText: "See Control Options →",
       linkHref: "#privacy",
     },
@@ -442,21 +442,21 @@ export default function Home() {
       label: "Morning",
       headline: "Start clear.",
       copy: "Before your inbox finds you, Orion's already queued the day — focus tracks on, flagged replies drafted.",
-      img: "/images/img/Morning_V1.jpg",
+      img: "/images/img/Morning-V1.jpg",
     },
     {
       id: "meetings",
       label: "Meetings",
       headline: "Makes time for what matters.",
       copy: "When calendars collide, Orion quietly clears the way — reschedules, briefs, and buys you a breath.",
-      img: "/images/img/Meetings_V1.jpg",
+      img: "/images/img/Meetings-V1.jpg",
     },
     {
       id: "commute",
       label: "Commute",
       headline: "Keeps pace, never pressure.",
       copy: "If the road slows, Orion reroutes and lets your 10 a.m. know — calm intact, coffee still warm.",
-      img: "/images/img/Commute_V1.jpg",
+      img: "/images/img/Commute-V1.jpg",
     },
     {
       id: "evenings",
@@ -470,7 +470,7 @@ export default function Home() {
       label: "Weekend",
       headline: "Plans that plan themselves.",
       copy: "When plans shift, Orion moves the pieces for you — without you lifting a finger.",
-      img: "/images/img/Weekend_V1.jpg",
+      img: "/images/img/Weekend-V1.jpg",
     },
   ];
 
@@ -478,22 +478,22 @@ export default function Home() {
     {
       title: "Morning Brief",
       caption: "Your day in 20s, with one-tap actions.",
-      image: "/images/img/Morning_V1.jpg",
+      image: "/images/img/Morning-V1.jpg",
     },
     {
       title: "Conflict Resolver",
       caption: "Finds overlaps, proposes fixes.",
-      image: "/images/img/Meetings_V1.jpg",
+      image: "/images/img/Meetings-V1.jpg",
     },
     {
       title: "Smart Commute",
       caption: "Auto reroute + notify.",
-      image: "/images/img/Commute_V1.jpg",
+      image: "/images/img/Commute-V1.jpg",
     },
     {
       title: "Home Wind-Down",
       caption: "Lights, music, next-day prep.",
-      image: "/images/img/Weekend_V2.jpg",
+      image: "/images/img/Weekend-V2.jpg",
     },
     {
       title: "Plan Shift",
@@ -716,7 +716,7 @@ export default function Home() {
         {/* Full-width background image */}
         <div className="absolute inset-0 w-full h-full">
           <img
-            src="/images/img/Together_Effortlessly_V2.jpg"
+            src="/images/img/Together-Effortlessly-V2.jpg"
             alt="Neural Orb Background"
             className="w-full h-full object-cover"
           />

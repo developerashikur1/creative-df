@@ -28,7 +28,7 @@ export default function PricingPage() {
         <div className="absolute inset-0 w-full h-full">
           <img
             // src={heroBg.src}
-            src="/images/images/Simple_plans._Quiet_power.jpg"
+            src="/images/images/Simple-plans.-Quiet-power.jpg"
             alt="Neural Orb Background"
             className="w-full h-full object-cover"
           />
@@ -359,7 +359,7 @@ export default function PricingPage() {
               className="w-full h-[420px] bg-[#2B2E33] rounded-2xl overflow-hidden"
             >
               <img
-                src="/images/images/Private_value.jpg"
+                src="/images/images/Private-value.jpg"
                 alt="Private value visual"
                 className="w-full h-full object-cover"
               />
@@ -482,7 +482,7 @@ export default function PricingPage() {
         <div className="absolute inset-0 w-full h-full">
           <img
             // src={orionImg.src}
-            src="/images/images/Orion_only_works_for_you_V1.jpg"
+            src="/images/images/Orion-only-works-for-you-V1.jpg"
             alt="Neural Orb Background"
             className="w-full h-full object-cover"
           />
