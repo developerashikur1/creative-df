@@ -6,9 +6,9 @@ import { motion } from "framer-motion";
 import { Check, ChevronDown } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
-import orionImg from "../../public/images/images-V2/Orion_only_works_for_you_V1.jpg";
-import privateBg from "../../public/images/images-V2/Private_value.jpg";
-import heroBg from "../../public/images/images-V2/Simple_plans._Quiet_power.jpg";
+// import orionImg from "../../public/images/images/Orion_only_works_for_you_V1.jpg";
+// import privateBg from "../../public/images/images/Private_value.jpg";
+// import heroBg from "../../public/images/images/Simple_plans._Quiet_power.jpg";
 
 export default function PricingPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -27,7 +27,8 @@ export default function PricingPage() {
         {/* Full-width background image */}
         <div className="absolute inset-0 w-full h-full">
           <img
-            src={heroBg.src}
+            // src={heroBg.src}
+            src="/images/images/Simple_plans._Quiet_power.jpg"
             alt="Neural Orb Background"
             className="w-full h-full object-cover"
           />
@@ -358,7 +359,7 @@ export default function PricingPage() {
               className="w-full h-[420px] bg-[#2B2E33] rounded-2xl overflow-hidden"
             >
               <img
-                src={privateBg.src}
+                src="/images/images/Private_value.jpg"
                 alt="Private value visual"
                 className="w-full h-full object-cover"
               />
@@ -480,7 +481,8 @@ export default function PricingPage() {
       <section className="py-32 px-6 flex justify-center items-center min-h-screen relative overflow-hidden">
         <div className="absolute inset-0 w-full h-full">
           <img
-            src={orionImg.src}
+            // src={orionImg.src}
+            src="/images/images/Orion_only_works_for_you_V1.jpg"
             alt="Neural Orb Background"
             className="w-full h-full object-cover"
           />
